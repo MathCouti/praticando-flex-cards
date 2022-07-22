@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Pokemons</title>
+
+
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                font-family: Verdana;
+                box-sizing: border-box;
+            }
+            .container{
+                width: 700px;
+                height: 100%;
+                margin: 150px auto;
+                border: 4px solid black;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                
+                
+                
+
+            }
+            .card{
+                border: 1px solid black;
+                width: 25%;
+                height: 220px;
+                margin: 10px;
+                display: flex;
+                justify-content: center;
+                
+                flex-wrap: wrap;
+                position: relative;
+                
+            }
+            .card img{
+                
+                width: 120px;
+                height: 120px;
+            }
+            .text-descri{
+                background-color: beige;
+                box-shadow: inset 0px 0px 20px black;
+                width: 100%;
+                height: 50%;
+                position: absolute;
+                bottom: 0;
+                text-align: center;
+                color: rgb(233, 201, 23);
+                text-shadow: 0px 0px 3px black;
+                
+                
+            }
+            .text-descri h2{
+                
+                margin: 40px auto;
+            }
+            .fundo-1{
+                background-color: rgb(243, 214, 159);
+                box-shadow: inset 0px 0px 10px rgb(255, 166, 0);
+                
+            }
+            .fundo-2{
+                background-color: rgb(253, 253, 181);
+                box-shadow: inset 0px 0px 10px yellow;
+                
+            }
+            .fundo-3{
+                background-color: rgb(174, 255, 174);
+                box-shadow: inset 0px 0px 10px green;
+                
+            }
+            .fundo-4{
+                background-color: rgb(182, 250, 255);
+                box-shadow: inset 0px 0px 10px rgb(18, 239, 255);
+                
+            }  
+            .fundo-5{
+                background-color: rgb(185, 172, 147);
+                box-shadow: inset 0px 0px 10px rgb(85, 69, 41);
+                
+            } 
+            .fundo-6{
+                background-color: rgb(49, 255, 159);
+                box-shadow: inset 0px 0px 10px rgb(22, 109, 68);
+                
+            }  
+              
+            @media (max-width: 750px){
+            .card{
+                width: 300px;
+                height: 300px;
+                
+                }
+            .card img{
+                width: 160px;
+                height: 160px;
+            }
+            h2{
+                font-size: 40px;
+            }
+            }
+            @media (max-width: 560px){
+            .card{
+                width: 250px;
+                height: 400px;
+                
+                }
+            .card img{
+                width: 190px;
+                height: 200px;
+            }
+            h2{
+                font-size: 40px;
+            }
+            .container{
+                border: 0.5px solid black;
+               
+                width: 400px;
+            }
+            }
+
+          
+
+        </style>
+    </head>
+    <body>
+    
+        <header>
+            <div class="container">
+                <div class="card fundo-1">
+                        <div class="img">
+                                <img src="imagens/1.png" alt="">
+                        </div>
+                        <div class="text-descri">
+                                <h2>charizard</h2>
+                                
+                        </div>
+                </div>
+                <div class="card fundo-2">
+                    <div class="img">
+                        <img src="imagens/2.png" alt="">
+                    </div>
+                    <div class="text-descri">
+                        <h2>Pikachu</h2>
+                    </div>                   
+                </div>
+                <div class="card fundo-3">
+                    <div class="img">
+                        <img src="imagens/3.png" alt="">
+                    </div>
+                    <div class="text-descri">
+                        <h2>Bulbasaur</h2>
+                    </div>                  
+                </div>
+                <div class="card fundo-4">
+                    <div class="img">
+                        <img src="imagens/4.png" alt="">
+                    </div>
+                    <div class="text-descri">
+                        <h2>Squirtle</h2>
+                    </div>                
+                </div>
+                <div class="card fundo-5">
+                    <div class="img">
+                        <img src="imagens/5.png" alt="">
+                    </div>
+                    <div class="text-descri">
+                        <h2>Eevee</h2>
+                    </div>                    
+                </div>
+                <div class="card fundo-6">
+                    <div class="img">
+                        <img src="imagens/6.png" alt="">
+                    </div>
+                    <div class="text-descri">
+                        <h2>Snorlax</h2>
+                    </div>                   
+                </div>                                                               
+            </div>
+        </header>
+
+    </body>
+</html>
